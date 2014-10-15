@@ -82,7 +82,15 @@
     <Compile Include="Controls\MyForm.Designer.cs">
       <DependentUpon>MyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\MyLabel.cs" />
+    <Compile Include="Controls\MyLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="en02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="en02.Designer.cs">
+      <DependentUpon>en02.cs</DependentUpon>
+    </Compile>
     <Compile Include="fa14_2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,6 +281,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="en02.resx">
+      <DependentUpon>en02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa14_2.resx">
       <DependentUpon>fa14_2.cs</DependentUpon>
