@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(en02));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(en01));
             this.label2 = new DesktopGuide.Controls.MyLabel();
             this.label5 = new DesktopGuide.Controls.MyLabel();
             this.label6 = new DesktopGuide.Controls.MyLabel();
@@ -213,7 +213,7 @@
             this.label15.Size = new System.Drawing.Size(360, 70);
             this.label15.TabIndex = 55;
             this.label15.Text = "If you also want to activate the application automatic login at Windows startup, " +
-                "go to SETTINGS tab and check \"Start application at startup\" in OPTIONS.";
+    "go to SETTINGS tab and check \"Start application at startup\" in OPTIONS.";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // login
@@ -227,7 +227,7 @@
             this.login.Controls.Add(this.arrow3);
             this.login.Controls.Add(this.myButton1);
             this.login.Controls.Add(this.myButton3);
-            this.login.Image = global::DesktopGuide.Properties.Resources.English_Main_Window;
+            this.login.Image = global::DesktopGuide.Properties.Resources.English_Login_Page;
             this.login.Location = new System.Drawing.Point(452, 79);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(311, 509);
@@ -350,7 +350,7 @@
             this.myButton3.UseVisualStyleBackColor = false;
             this.myButton3.Click += new System.EventHandler(this.myButton3_Click);
             // 
-            // en02
+            // en01
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Controls.Add(this.label15);
@@ -367,7 +367,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.login);
-            this.Name = "en02";
+            this.Name = "en01";
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.login, 0);
             this.Controls.SetChildIndex(this.label2, 0);

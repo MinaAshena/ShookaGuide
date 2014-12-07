@@ -55,6 +55,9 @@
             this.myLabel2 = new DesktopGuide.Controls.MyLabel();
             this.myLabel3 = new DesktopGuide.Controls.MyLabel();
             this.myLabel4 = new DesktopGuide.Controls.MyLabel();
+            this.arrow9 = new DesktopGuide.Controls.Arrow();
+            this.myLabel5 = new DesktopGuide.Controls.MyLabel();
+            this.myLabel6 = new DesktopGuide.Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -70,10 +73,10 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(365, 93);
+            this.label2.Location = new System.Drawing.Point(359, 93);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(374, 490);
+            this.label2.Size = new System.Drawing.Size(380, 520);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -130,7 +133,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(17, 18);
             this.label10.TabIndex = 54;
-            this.label10.Text = "5";
+            this.label10.Text = "6";
             // 
             // label11
             // 
@@ -141,7 +144,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(17, 18);
             this.label11.TabIndex = 55;
-            this.label11.Text = "6";
+            this.label11.Text = "7";
             // 
             // label12
             // 
@@ -152,7 +155,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(17, 18);
             this.label12.TabIndex = 56;
-            this.label12.Text = "7";
+            this.label12.Text = "8";
             // 
             // label13
             // 
@@ -163,7 +166,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(17, 18);
             this.label13.TabIndex = 57;
-            this.label13.Text = "8";
+            this.label13.Text = "9";
             // 
             // label5
             // 
@@ -350,7 +353,7 @@
             this.myLabel1.Name = "myLabel1";
             this.myLabel1.Size = new System.Drawing.Size(17, 18);
             this.myLabel1.TabIndex = 62;
-            this.myLabel1.Text = "3";
+            this.myLabel1.Text = "4";
             // 
             // myLabel2
             // 
@@ -361,7 +364,7 @@
             this.myLabel2.Name = "myLabel2";
             this.myLabel2.Size = new System.Drawing.Size(17, 18);
             this.myLabel2.TabIndex = 63;
-            this.myLabel2.Text = "4";
+            this.myLabel2.Text = "5";
             // 
             // myLabel3
             // 
@@ -385,9 +388,48 @@
             this.myLabel4.TabIndex = 65;
             this.myLabel4.Text = "-8";
             // 
+            // arrow9
+            // 
+            this.arrow9._CapSize = 10F;
+            this.arrow9._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow9._FilledCap = false;
+            this.arrow9._LineWidth = 1F;
+            this.arrow9._transparentParent = this;
+            this.arrow9.BackColor = System.Drawing.Color.Transparent;
+            this.arrow9.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow9.Location = new System.Drawing.Point(307, 215);
+            this.arrow9.Name = "arrow9";
+            this.arrow9.Size = new System.Drawing.Size(27, 18);
+            this.arrow9.TabIndex = 44;
+            // 
+            // myLabel5
+            // 
+            this.myLabel5.AutoSize = true;
+            this.myLabel5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.myLabel5.ForeColor = System.Drawing.Color.Red;
+            this.myLabel5.Location = new System.Drawing.Point(344, 215);
+            this.myLabel5.Name = "myLabel5";
+            this.myLabel5.Size = new System.Drawing.Size(17, 18);
+            this.myLabel5.TabIndex = 66;
+            this.myLabel5.Text = "3";
+            // 
+            // myLabel6
+            // 
+            this.myLabel6.AutoSize = true;
+            this.myLabel6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.myLabel6.ForeColor = System.Drawing.Color.Red;
+            this.myLabel6.Location = new System.Drawing.Point(737, 574);
+            this.myLabel6.Name = "myLabel6";
+            this.myLabel6.Size = new System.Drawing.Size(25, 21);
+            this.myLabel6.TabIndex = 67;
+            this.myLabel6.Text = "-9";
+            // 
             // fa15
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.myLabel6);
+            this.Controls.Add(this.arrow9);
+            this.Controls.Add(this.myLabel5);
             this.Controls.Add(this.myLabel4);
             this.Controls.Add(this.myLabel3);
             this.Controls.Add(this.myLabel2);
@@ -427,6 +469,9 @@
             this.Controls.SetChildIndex(this.myLabel2, 0);
             this.Controls.SetChildIndex(this.myLabel3, 0);
             this.Controls.SetChildIndex(this.myLabel4, 0);
+            this.Controls.SetChildIndex(this.myLabel5, 0);
+            this.Controls.SetChildIndex(this.arrow9, 0);
+            this.Controls.SetChildIndex(this.myLabel6, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -462,6 +507,9 @@
         private Controls.MyLabel myLabel2;
         private Controls.MyLabel myLabel3;
         private Controls.MyLabel myLabel4;
+        private Controls.Arrow arrow9;
+        private Controls.MyLabel myLabel6;
+        private Controls.MyLabel myLabel5;
     }
 }
 
