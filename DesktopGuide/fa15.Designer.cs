@@ -371,7 +371,7 @@
             this.myLabel3.AutoSize = true;
             this.myLabel3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel3.ForeColor = System.Drawing.Color.Red;
-            this.myLabel3.Location = new System.Drawing.Point(737, 528);
+            this.myLabel3.Location = new System.Drawing.Point(737, 504);
             this.myLabel3.Name = "myLabel3";
             this.myLabel3.Size = new System.Drawing.Size(25, 21);
             this.myLabel3.TabIndex = 64;
@@ -382,7 +382,7 @@
             this.myLabel4.AutoSize = true;
             this.myLabel4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel4.ForeColor = System.Drawing.Color.Red;
-            this.myLabel4.Location = new System.Drawing.Point(737, 551);
+            this.myLabel4.Location = new System.Drawing.Point(737, 527);
             this.myLabel4.Name = "myLabel4";
             this.myLabel4.Size = new System.Drawing.Size(25, 21);
             this.myLabel4.TabIndex = 65;
@@ -418,7 +418,7 @@
             this.myLabel6.AutoSize = true;
             this.myLabel6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel6.ForeColor = System.Drawing.Color.Red;
-            this.myLabel6.Location = new System.Drawing.Point(737, 574);
+            this.myLabel6.Location = new System.Drawing.Point(737, 550);
             this.myLabel6.Name = "myLabel6";
             this.myLabel6.Size = new System.Drawing.Size(25, 21);
             this.myLabel6.TabIndex = 67;
