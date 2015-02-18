@@ -19,5 +19,45 @@ namespace DesktopGuide
         {
             MoveToSlide(new fa05());
         }
+
+        private void arrow7_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void arrow3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void myLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void myLabel8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

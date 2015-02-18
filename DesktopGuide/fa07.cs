@@ -19,5 +19,15 @@ namespace DesktopGuide
         {
             MoveToSlide(new fa05());
         }
+
+        private void fa07_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
