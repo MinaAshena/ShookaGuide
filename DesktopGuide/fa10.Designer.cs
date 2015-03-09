@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fa10));
-            this.label2 = new Controls.MyLabel();
-            this.label3 = new Controls.MyLabel();
-            this.label9 = new Controls.MyLabel();
-            this.label10 = new Controls.MyLabel();
-            this.label11 = new Controls.MyLabel();
-            this.label4 = new Controls.MyLabel();
-            this.label16 = new Controls.MyLabel();
+            this.label2 = new DesktopGuide.Controls.MyLabel();
+            this.label3 = new DesktopGuide.Controls.MyLabel();
+            this.label9 = new DesktopGuide.Controls.MyLabel();
+            this.label10 = new DesktopGuide.Controls.MyLabel();
+            this.label11 = new DesktopGuide.Controls.MyLabel();
+            this.label4 = new DesktopGuide.Controls.MyLabel();
+            this.label16 = new DesktopGuide.Controls.MyLabel();
             this.main = new System.Windows.Forms.PictureBox();
             this.myButton3 = new DesktopGuide.Controls.MyButton();
             this.myButton2 = new DesktopGuide.Controls.MyButton();
@@ -45,20 +45,20 @@
             this.arrow3 = new DesktopGuide.Controls.Arrow();
             this.arrow4 = new DesktopGuide.Controls.Arrow();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
-            this.label5 = new Controls.MyLabel();
-            this.label7 = new Controls.MyLabel();
-            this.label8 = new Controls.MyLabel();
-            this.label12 = new Controls.MyLabel();
-            this.label23 = new Controls.MyLabel();
-            this.label6 = new Controls.MyLabel();
+            this.label5 = new DesktopGuide.Controls.MyLabel();
+            this.label7 = new DesktopGuide.Controls.MyLabel();
+            this.label8 = new DesktopGuide.Controls.MyLabel();
+            this.label12 = new DesktopGuide.Controls.MyLabel();
+            this.label23 = new DesktopGuide.Controls.MyLabel();
+            this.label6 = new DesktopGuide.Controls.MyLabel();
             this.arrow6 = new DesktopGuide.Controls.Arrow();
-            this.label13 = new Controls.MyLabel();
+            this.label13 = new DesktopGuide.Controls.MyLabel();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
-            this.label14 = new Controls.MyLabel();
+            this.label14 = new DesktopGuide.Controls.MyLabel();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
-            this.label15 = new Controls.MyLabel();
-            this.label17 = new Controls.MyLabel();
-            this.label18 = new Controls.MyLabel();
+            this.label15 = new DesktopGuide.Controls.MyLabel();
+            this.label17 = new DesktopGuide.Controls.MyLabel();
+            this.label18 = new DesktopGuide.Controls.MyLabel();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -511,36 +511,36 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox main;
         private Controls.Arrow arrow1;
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.MyButton myButton3;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
         private Controls.Arrow arrow5;
         private Controls.Arrow arrow4;
         private Controls.Arrow arrow3;
         private Controls.Arrow arrow2;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label13;
         private Controls.Arrow arrow6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
         private Controls.Arrow arrow8;
-        private System.Windows.Forms.Label label15;
         private Controls.Arrow arrow7;
-        private System.Windows.Forms.Label label14;
+        private Controls.MyLabel label2;
+        private Controls.MyLabel label3;
+        private Controls.MyLabel label9;
+        private Controls.MyLabel label10;
+        private Controls.MyLabel label11;
+        private Controls.MyLabel label4;
+        private Controls.MyLabel label16;
+        private Controls.MyLabel label12;
+        private Controls.MyLabel label8;
+        private Controls.MyLabel label7;
+        private Controls.MyLabel label5;
+        private Controls.MyLabel label23;
+        private Controls.MyLabel label13;
+        private Controls.MyLabel label6;
+        private Controls.MyLabel label18;
+        private Controls.MyLabel label17;
+        private Controls.MyLabel label15;
+        private Controls.MyLabel label14;
     }
 }
 

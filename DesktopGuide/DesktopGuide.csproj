@@ -145,9 +145,9 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\Accolade.cs">
+    <None Include="Controls\Accolade.cs">
       <SubType>UserControl</SubType>
-    </Compile>
+    </None>
     <Compile Include="Controls\Circle.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,24 +166,24 @@
     <Compile Include="Controls\MyLabel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="en02.cs">
+    <None Include="en02.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="en02.Designer.cs">
+    </None>
+    <None Include="en02.Designer.cs">
       <DependentUpon>en02.cs</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="fa14_2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fa14_2.Designer.cs">
       <DependentUpon>fa14_2.cs</DependentUpon>
     </Compile>
-    <Compile Include="en01.cs">
+    <None Include="en01.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="en01.Designer.cs">
+    </None>
+    <None Include="en01.Designer.cs">
       <DependentUpon>en01.cs</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="fa29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -363,15 +363,15 @@
     <EmbeddedResource Include="Controls\MyForm.resx">
       <DependentUpon>MyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="en02.resx">
+    <None Include="en02.resx">
       <DependentUpon>en02.cs</DependentUpon>
-    </EmbeddedResource>
+    </None>
     <EmbeddedResource Include="fa14_2.resx">
       <DependentUpon>fa14_2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="en01.resx">
+    <None Include="en01.resx">
       <DependentUpon>en01.cs</DependentUpon>
-    </EmbeddedResource>
+    </None>
     <EmbeddedResource Include="fa29.resx">
       <DependentUpon>fa29.cs</DependentUpon>
     </EmbeddedResource>
@@ -498,9 +498,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Login Page.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -511,12 +508,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Main Window.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Contact List.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UserOfflineSmall.png" />
@@ -541,42 +532,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\legacy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Audio Test.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Camera Test.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Slide7.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Bug Report.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Slide8.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Direct Call Window.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Direct Call Window1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Slide9.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Recent Calls.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Slide10.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Starting Conference.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Farsi Login Page.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Farsi_Main_Window.png" />
@@ -676,6 +631,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GuideIcon.ico" />
+    <None Include="Resources\English_Main_Window1.png" />
+    <None Include="Resources\English_Login_Page1.png" />
     <None Include="Resources\English_Main_Window.png" />
     <None Include="Resources\Farsi_Participant_FECC_Control_Window.png" />
     <None Include="Resources\English_Login_Page.png" />
