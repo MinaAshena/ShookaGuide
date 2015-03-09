@@ -42,8 +42,6 @@
             this.label6 = new DesktopGuide.Controls.MyLabel();
             this.label7 = new DesktopGuide.Controls.MyLabel();
             this.label14 = new DesktopGuide.Controls.MyLabel();
-            this.main = new System.Windows.Forms.PictureBox();
-            this.arrow6 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
@@ -61,6 +59,8 @@
             this.myLabel7 = new DesktopGuide.Controls.MyLabel();
             this.myLabel8 = new DesktopGuide.Controls.MyLabel();
             this.myLabel9 = new DesktopGuide.Controls.MyLabel();
+            this.main = new System.Windows.Forms.PictureBox();
+            this.arrow6 = new DesktopGuide.Controls.Arrow();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -123,7 +123,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(336, 159);
+            this.label4.Location = new System.Drawing.Point(336, 164);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(17, 18);
             this.label4.TabIndex = 53;
@@ -218,33 +218,6 @@
             this.label14.Size = new System.Drawing.Size(25, 21);
             this.label14.TabIndex = 61;
             this.label14.Text = "-6";
-            // 
-            // main
-            // 
-            this.main.BackColor = System.Drawing.Color.Transparent;
-            this.main.Controls.Add(this.arrow6);
-            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Room_Settings;
-            this.main.InitialImage = null;
-            this.main.Location = new System.Drawing.Point(17, 110);
-            this.main.Name = "main";
-            this.main.Size = new System.Drawing.Size(317, 374);
-            this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.main.TabIndex = 20;
-            this.main.TabStop = false;
-            // 
-            // arrow6
-            // 
-            this.arrow6._CapSize = 10F;
-            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
-            this.arrow6._FilledCap = false;
-            this.arrow6._LineWidth = 1F;
-            this.arrow6._transparentParent = this.main;
-            this.arrow6.BackColor = System.Drawing.Color.Transparent;
-            this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(236, 329);
-            this.arrow6.Name = "arrow6";
-            this.arrow6.Size = new System.Drawing.Size(83, 18);
-            this.arrow6.TabIndex = 44;
             // 
             // arrow8
             // 
@@ -341,7 +314,7 @@
             this.arrow1._transparentParent = this;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(295, 159);
+            this.arrow1.Location = new System.Drawing.Point(295, 163);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(39, 18);
             this.arrow1.TabIndex = 44;
@@ -459,6 +432,33 @@
             this.myLabel9.Size = new System.Drawing.Size(17, 18);
             this.myLabel9.TabIndex = 70;
             this.myLabel9.Text = "2";
+            // 
+            // main
+            // 
+            this.main.BackColor = System.Drawing.Color.Transparent;
+            this.main.Controls.Add(this.arrow6);
+            this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Room_Settings;
+            this.main.InitialImage = null;
+            this.main.Location = new System.Drawing.Point(17, 110);
+            this.main.Name = "main";
+            this.main.Size = new System.Drawing.Size(317, 374);
+            this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.main.TabIndex = 20;
+            this.main.TabStop = false;
+            // 
+            // arrow6
+            // 
+            this.arrow6._CapSize = 10F;
+            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow6._FilledCap = false;
+            this.arrow6._LineWidth = 1F;
+            this.arrow6._transparentParent = this.main;
+            this.arrow6.BackColor = System.Drawing.Color.Transparent;
+            this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow6.Location = new System.Drawing.Point(236, 329);
+            this.arrow6.Name = "arrow6";
+            this.arrow6.Size = new System.Drawing.Size(83, 18);
+            this.arrow6.TabIndex = 44;
             // 
             // fa15
             // 

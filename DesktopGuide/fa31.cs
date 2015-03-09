@@ -8,36 +8,46 @@ using System.Windows.Forms;
 
 namespace DesktopGuide
 {
-    public partial class fa17 : MyForm
+    public partial class fa31 : MyForm
     {
-        public fa17()
+        public fa31()
         {
             InitializeComponent();
         }
 
         private void myButton1_Click(object sender, EventArgs e)
         {
-            MoveToSlide(new fa02());
+            MoveToSlide(new fa03());
         }
 
         private void myButton2_Click(object sender, EventArgs e)
         {
-            MoveToSlide(new fa02());
+            MoveToSlide(new fa05());
         }
 
         private void myButton3_Click(object sender, EventArgs e)
         {
-            MoveToSlide(new fa16());
+            MoveToSlide(new fa07());
         }
 
         private void myButton4_Click(object sender, EventArgs e)
         {
-            MoveToSlide(new fa09());
+            MoveToSlide(new fa11());
         }
 
-        private void myButton4_Click_1(object sender, EventArgs e)
+        private void myButton1_Click_1(object sender, EventArgs e)
         {
-            MoveToSlide(new fa17_2());
+            MoveToSlide(new fa02());
+        }
+
+        private void myButton2_Click_1(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa02());
+        }
+
+        private void myButton3_Click_1(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa21());
         }
     }
 }

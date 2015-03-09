@@ -184,6 +184,24 @@
     <Compile Include="en01.Designer.cs">
       <DependentUpon>en01.cs</DependentUpon>
     </Compile>
+    <Compile Include="fa17_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa17_2.Designer.cs">
+      <DependentUpon>fa17_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa31.Designer.cs">
+      <DependentUpon>fa31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa30.Designer.cs">
+      <DependentUpon>fa30.cs</DependentUpon>
+    </Compile>
     <Compile Include="fa29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -371,6 +389,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="en01.resx">
       <DependentUpon>en01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa17_2.resx">
+      <DependentUpon>fa17_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa31.resx">
+      <DependentUpon>fa31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa30.resx">
+      <DependentUpon>fa30.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa29.resx">
       <DependentUpon>fa29.cs</DependentUpon>
@@ -676,6 +703,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GuideIcon.ico" />
+    <None Include="Resources\Farsi_ParticipantPage.png" />
+    <None Include="Resources\Farsi_RollCall.jpg" />
+    <None Include="Resources\Farsi_Voting.PNG" />
     <None Include="Resources\English_Main_Window.png" />
     <None Include="Resources\Farsi_Participant_FECC_Control_Window.png" />
     <None Include="Resources\English_Login_Page.png" />

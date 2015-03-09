@@ -34,7 +34,6 @@
             this.label9 = new DesktopGuide.Controls.MyLabel();
             this.label10 = new DesktopGuide.Controls.MyLabel();
             this.label11 = new DesktopGuide.Controls.MyLabel();
-            this.label4 = new DesktopGuide.Controls.MyLabel();
             this.label16 = new DesktopGuide.Controls.MyLabel();
             this.label12 = new DesktopGuide.Controls.MyLabel();
             this.label13 = new DesktopGuide.Controls.MyLabel();
@@ -67,11 +66,11 @@
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.Font = new System.Drawing.Font("B Nazanin", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.Location = new System.Drawing.Point(395, 113);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(348, 527);
+            this.label2.Size = new System.Drawing.Size(348, 478);
             this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -91,7 +90,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(737, 163);
+            this.label9.Location = new System.Drawing.Point(737, 161);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(25, 21);
             this.label9.TabIndex = 17;
@@ -102,7 +101,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(738, 260);
+            this.label10.Location = new System.Drawing.Point(738, 255);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 21);
             this.label10.TabIndex = 18;
@@ -113,30 +112,19 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(738, 382);
+            this.label11.Location = new System.Drawing.Point(738, 369);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(25, 21);
             this.label11.TabIndex = 19;
             this.label11.Text = "-4";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(738, 473);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 21);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "-5";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(330, 154);
+            this.label16.Location = new System.Drawing.Point(330, 159);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(17, 18);
             this.label16.TabIndex = 32;
@@ -158,7 +146,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(330, 254);
+            this.label13.Location = new System.Drawing.Point(330, 264);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(17, 18);
             this.label13.TabIndex = 35;
@@ -169,7 +157,7 @@
             this.main.BackColor = System.Drawing.Color.Transparent;
             this.main.Image = global::DesktopGuide.Properties.Resources.Farsi_Bug_Report;
             this.main.InitialImage = null;
-            this.main.Location = new System.Drawing.Point(7, 154);
+            this.main.Location = new System.Drawing.Point(16, 153);
             this.main.Name = "main";
             this.main.Size = new System.Drawing.Size(317, 371);
             this.main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -199,7 +187,7 @@
             this.arrow1._transparentParent = this;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(291, 254);
+            this.arrow1.Location = new System.Drawing.Point(291, 268);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(36, 10);
             this.arrow1.TabIndex = 44;
@@ -213,7 +201,7 @@
             this.arrow6._transparentParent = this;
             this.arrow6.BackColor = System.Drawing.Color.Transparent;
             this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(291, 288);
+            this.arrow6.Location = new System.Drawing.Point(291, 308);
             this.arrow6.Name = "arrow6";
             this.arrow6.Size = new System.Drawing.Size(36, 10);
             this.arrow6.TabIndex = 44;
@@ -227,7 +215,7 @@
             this.arrow7._transparentParent = this;
             this.arrow7.BackColor = System.Drawing.Color.Transparent;
             this.arrow7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow7.Location = new System.Drawing.Point(291, 332);
+            this.arrow7.Location = new System.Drawing.Point(291, 346);
             this.arrow7.Name = "arrow7";
             this.arrow7.Size = new System.Drawing.Size(36, 10);
             this.arrow7.TabIndex = 44;
@@ -237,7 +225,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(737, 475);
+            this.label5.Location = new System.Drawing.Point(737, 461);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 21);
             this.label5.TabIndex = 37;
@@ -248,7 +236,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(738, 570);
+            this.label6.Location = new System.Drawing.Point(738, 552);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(25, 21);
             this.label6.TabIndex = 38;
@@ -279,7 +267,7 @@
             this.arrow9.ForeColor = System.Drawing.Color.SteelBlue;
             this.arrow9.Location = new System.Drawing.Point(159, 427);
             this.arrow9.Name = "arrow9";
-            this.arrow9.Size = new System.Drawing.Size(165, 41);
+            this.arrow9.Size = new System.Drawing.Size(165, 65);
             this.arrow9.TabIndex = 44;
             // 
             // arrow10
@@ -291,7 +279,7 @@
             this.arrow10._transparentParent = this;
             this.arrow10.BackColor = System.Drawing.Color.Transparent;
             this.arrow10.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow10.Location = new System.Drawing.Point(291, 474);
+            this.arrow10.Location = new System.Drawing.Point(291, 495);
             this.arrow10.Name = "arrow10";
             this.arrow10.Size = new System.Drawing.Size(36, 10);
             this.arrow10.TabIndex = 44;
@@ -301,7 +289,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(333, 288);
+            this.label7.Location = new System.Drawing.Point(330, 308);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(17, 18);
             this.label7.TabIndex = 45;
@@ -312,7 +300,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(333, 332);
+            this.label8.Location = new System.Drawing.Point(330, 342);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 18);
             this.label8.TabIndex = 46;
@@ -323,7 +311,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(330, 415);
+            this.label15.Location = new System.Drawing.Point(330, 416);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(17, 18);
             this.label15.TabIndex = 47;
@@ -334,7 +322,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(330, 474);
+            this.label17.Location = new System.Drawing.Point(330, 495);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(17, 18);
             this.label17.TabIndex = 48;
@@ -356,7 +344,7 @@
             this.myLabel1.AutoSize = true;
             this.myLabel1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel1.ForeColor = System.Drawing.Color.Red;
-            this.myLabel1.Location = new System.Drawing.Point(738, 526);
+            this.myLabel1.Location = new System.Drawing.Point(738, 507);
             this.myLabel1.Name = "myLabel1";
             this.myLabel1.Size = new System.Drawing.Size(25, 21);
             this.myLabel1.TabIndex = 50;
@@ -372,7 +360,6 @@
             this.Controls.Add(this.arrow6);
             this.Controls.Add(this.arrow1);
             this.Controls.Add(this.arrow10);
-            this.Controls.Add(this.arrow9);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label8);
@@ -383,23 +370,23 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.arrow9);
             this.Controls.Add(this.main);
             this.Name = "fa07";
             this.Load += new System.EventHandler(this.fa07_Load);
             this.Controls.SetChildIndex(this.main, 0);
+            this.Controls.SetChildIndex(this.arrow9, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.label9, 0);
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.label11, 0);
-            this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.prevButton, 0);
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.label12, 0);
@@ -411,7 +398,6 @@
             this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label15, 0);
             this.Controls.SetChildIndex(this.label17, 0);
-            this.Controls.SetChildIndex(this.arrow9, 0);
             this.Controls.SetChildIndex(this.arrow10, 0);
             this.Controls.SetChildIndex(this.arrow1, 0);
             this.Controls.SetChildIndex(this.arrow6, 0);
@@ -440,7 +426,6 @@
         private Controls.MyLabel label9;
         private Controls.MyLabel label10;
         private Controls.MyLabel label11;
-        private Controls.MyLabel label4;
         private Controls.MyLabel label16;
         private Controls.MyLabel label12;
         private Controls.MyLabel label13;
