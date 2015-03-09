@@ -183,7 +183,7 @@
     </None>
     <None Include="en01.Designer.cs">
       <DependentUpon>en01.cs</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="fa17_2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -389,7 +389,7 @@
     </EmbeddedResource>
     <None Include="en01.resx">
       <DependentUpon>en01.cs</DependentUpon>
-    </EmbeddedResource>
+    </None>
     <EmbeddedResource Include="fa17_2.resx">
       <DependentUpon>fa17_2.cs</DependentUpon>
     </EmbeddedResource>

@@ -72,12 +72,12 @@ namespace DesktopGuide
 
         private void myButton10_Click(object sender, EventArgs e)
         {
-            //MoveToSlide(rollcall);
+            MoveToSlide(new fa31());
         }
 
         private void myButton11_Click(object sender, EventArgs e)
         {
-            //MoveToSlide(voting);
+            MoveToSlide(new fa30());
         }
 
     }
