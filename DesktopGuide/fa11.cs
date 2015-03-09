@@ -70,5 +70,15 @@ namespace DesktopGuide
             MoveToSlide(new fa28());
         }
 
+        private void myButton10_Click(object sender, EventArgs e)
+        {
+            //MoveToSlide(rollcall);
+        }
+
+        private void myButton11_Click(object sender, EventArgs e)
+        {
+            //MoveToSlide(voting);
+        }
+
     }
 }
