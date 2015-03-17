@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace DesktopGuide.Controls
 {
-    class MyLabel : Label
+    public class MyLabel : Label
     {
         public static PrivateFontCollection myFonts = new PrivateFontCollection();
 
