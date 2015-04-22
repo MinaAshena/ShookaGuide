@@ -37,7 +37,6 @@
             this.label4 = new DesktopGuide.Controls.MyLabel();
             this.label16 = new DesktopGuide.Controls.MyLabel();
             this.arrow1 = new DesktopGuide.Controls.Arrow();
-            this.arrow2 = new DesktopGuide.Controls.Arrow();
             this.arrow5 = new DesktopGuide.Controls.Arrow();
             this.label5 = new DesktopGuide.Controls.MyLabel();
             this.label12 = new DesktopGuide.Controls.MyLabel();
@@ -46,11 +45,9 @@
             this.label15 = new DesktopGuide.Controls.MyLabel();
             this.label17 = new DesktopGuide.Controls.MyLabel();
             this.arrow3 = new DesktopGuide.Controls.Arrow();
-            this.arrow6 = new DesktopGuide.Controls.Arrow();
             this.arrow7 = new DesktopGuide.Controls.Arrow();
             this.arrow8 = new DesktopGuide.Controls.Arrow();
             this.label7 = new DesktopGuide.Controls.MyLabel();
-            this.label8 = new DesktopGuide.Controls.MyLabel();
             this.label18 = new DesktopGuide.Controls.MyLabel();
             this.label19 = new DesktopGuide.Controls.MyLabel();
             this.label20 = new DesktopGuide.Controls.MyLabel();
@@ -82,6 +79,9 @@
             this.myLabel7 = new DesktopGuide.Controls.MyLabel();
             this.arrow13 = new DesktopGuide.Controls.Arrow();
             this.myLabel8 = new DesktopGuide.Controls.MyLabel();
+            this.arrow6 = new DesktopGuide.Controls.Arrow();
+            this.myLabel9 = new DesktopGuide.Controls.MyLabel();
+            this.arrow2 = new DesktopGuide.Controls.Arrow();
             ((System.ComponentModel.ISupportInitialize)(this.main)).BeginInit();
             this.main.SuspendLayout();
             this.SuspendLayout();
@@ -153,7 +153,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(740, 216);
+            this.label4.Location = new System.Drawing.Point(740, 241);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 21);
             this.label4.TabIndex = 21;
@@ -179,24 +179,10 @@
             this.arrow1._transparentParent = this;
             this.arrow1.BackColor = System.Drawing.Color.Transparent;
             this.arrow1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow1.Location = new System.Drawing.Point(281, 253);
+            this.arrow1.Location = new System.Drawing.Point(281, 261);
             this.arrow1.Name = "arrow1";
             this.arrow1.Size = new System.Drawing.Size(38, 12);
             this.arrow1.TabIndex = 44;
-            // 
-            // arrow2
-            // 
-            this.arrow2._CapSize = 10F;
-            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
-            this.arrow2._FilledCap = false;
-            this.arrow2._LineWidth = 1F;
-            this.arrow2._transparentParent = this;
-            this.arrow2.BackColor = System.Drawing.Color.Transparent;
-            this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow2.Location = new System.Drawing.Point(282, 282);
-            this.arrow2.Name = "arrow2";
-            this.arrow2.Size = new System.Drawing.Size(38, 12);
-            this.arrow2.TabIndex = 44;
             // 
             // arrow5
             // 
@@ -217,7 +203,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(320, 250);
+            this.label5.Location = new System.Drawing.Point(320, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 18);
             this.label5.TabIndex = 51;
@@ -239,18 +225,19 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(741, 423);
+            this.label13.Location = new System.Drawing.Point(741, 377);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(25, 21);
             this.label13.TabIndex = 58;
             this.label13.Text = "-9";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(741, 355);
+            this.label14.Location = new System.Drawing.Point(741, 309);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(25, 21);
             this.label14.TabIndex = 57;
@@ -261,7 +248,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(741, 332);
+            this.label15.Location = new System.Drawing.Point(741, 285);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(25, 21);
             this.label15.TabIndex = 56;
@@ -272,7 +259,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(741, 286);
+            this.label17.Location = new System.Drawing.Point(741, 262);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(25, 21);
             this.label17.TabIndex = 55;
@@ -292,20 +279,6 @@
             this.arrow3.Size = new System.Drawing.Size(38, 12);
             this.arrow3.TabIndex = 44;
             // 
-            // arrow6
-            // 
-            this.arrow6._CapSize = 10F;
-            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.PrimaryDiagonalToButtom;
-            this.arrow6._FilledCap = false;
-            this.arrow6._LineWidth = 1F;
-            this.arrow6._transparentParent = this;
-            this.arrow6.BackColor = System.Drawing.Color.Transparent;
-            this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow6.Location = new System.Drawing.Point(33, 249);
-            this.arrow6.Name = "arrow6";
-            this.arrow6.Size = new System.Drawing.Size(115, 30);
-            this.arrow6.TabIndex = 44;
-            // 
             // arrow7
             // 
             this.arrow7._CapSize = 10F;
@@ -315,9 +288,9 @@
             this.arrow7._transparentParent = this;
             this.arrow7.BackColor = System.Drawing.Color.Transparent;
             this.arrow7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.arrow7.Location = new System.Drawing.Point(29, 290);
+            this.arrow7.Location = new System.Drawing.Point(22, 255);
             this.arrow7.Name = "arrow7";
-            this.arrow7.Size = new System.Drawing.Size(25, 8);
+            this.arrow7.Size = new System.Drawing.Size(21, 22);
             this.arrow7.TabIndex = 44;
             // 
             // arrow8
@@ -344,17 +317,6 @@
             this.label7.Size = new System.Drawing.Size(17, 18);
             this.label7.TabIndex = 59;
             this.label7.Text = "2";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(8, 241);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(17, 18);
-            this.label8.TabIndex = 60;
-            this.label8.Text = "5";
             // 
             // label18
             // 
@@ -384,7 +346,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label20.ForeColor = System.Drawing.Color.Red;
-            this.label20.Location = new System.Drawing.Point(320, 277);
+            this.label20.Location = new System.Drawing.Point(8, 257);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(17, 18);
             this.label20.TabIndex = 63;
@@ -456,12 +418,12 @@
             this.myButton11._transparentParent = this.main;
             this.myButton11.BackColor = System.Drawing.Color.Transparent;
             this.myButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.myButton11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.myButton11.FlatAppearance.BorderSize = 2;
             this.myButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton11.Location = new System.Drawing.Point(31, 422);
+            this.myButton11.Location = new System.Drawing.Point(31, 423);
             this.myButton11.Name = "myButton11";
-            this.myButton11.Size = new System.Drawing.Size(110, 30);
+            this.myButton11.Size = new System.Drawing.Size(110, 29);
             this.myButton11.TabIndex = 49;
             this.myButton11.UseVisualStyleBackColor = false;
             this.myButton11.Click += new System.EventHandler(this.myButton11_Click);
@@ -471,12 +433,12 @@
             this.myButton10._transparentParent = this.main;
             this.myButton10.BackColor = System.Drawing.Color.Transparent;
             this.myButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton10.FlatAppearance.BorderSize = 2;
             this.myButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton10.Location = new System.Drawing.Point(141, 423);
+            this.myButton10.Location = new System.Drawing.Point(144, 423);
             this.myButton10.Name = "myButton10";
-            this.myButton10.Size = new System.Drawing.Size(110, 30);
+            this.myButton10.Size = new System.Drawing.Size(107, 30);
             this.myButton10.TabIndex = 49;
             this.myButton10.UseVisualStyleBackColor = false;
             this.myButton10.Click += new System.EventHandler(this.myButton10_Click);
@@ -486,12 +448,12 @@
             this.myButton9._transparentParent = this.main;
             this.myButton9.BackColor = System.Drawing.Color.Transparent;
             this.myButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton9.FlatAppearance.BorderSize = 2;
             this.myButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton9.Location = new System.Drawing.Point(161, 200);
+            this.myButton9.Location = new System.Drawing.Point(20, 200);
             this.myButton9.Name = "myButton9";
-            this.myButton9.Size = new System.Drawing.Size(90, 30);
+            this.myButton9.Size = new System.Drawing.Size(74, 26);
             this.myButton9.TabIndex = 49;
             this.myButton9.UseVisualStyleBackColor = false;
             this.myButton9.Click += new System.EventHandler(this.myButton9_Click);
@@ -515,7 +477,7 @@
             this.myButton8._transparentParent = this.main;
             this.myButton8.BackColor = System.Drawing.Color.Transparent;
             this.myButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton8.FlatAppearance.BorderSize = 2;
             this.myButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton8.Location = new System.Drawing.Point(20, 127);
@@ -530,12 +492,12 @@
             this.myButton7._transparentParent = this.main;
             this.myButton7.BackColor = System.Drawing.Color.Transparent;
             this.myButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton7.FlatAppearance.BorderSize = 2;
             this.myButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton7.Location = new System.Drawing.Point(29, 197);
+            this.myButton7.Location = new System.Drawing.Point(20, 171);
             this.myButton7.Name = "myButton7";
-            this.myButton7.Size = new System.Drawing.Size(81, 29);
+            this.myButton7.Size = new System.Drawing.Size(74, 29);
             this.myButton7.TabIndex = 49;
             this.myButton7.UseVisualStyleBackColor = false;
             this.myButton7.Click += new System.EventHandler(this.myButton7_Click);
@@ -545,7 +507,7 @@
             this.myButton6._transparentParent = this.main;
             this.myButton6.BackColor = System.Drawing.Color.Transparent;
             this.myButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton6.FlatAppearance.BorderSize = 2;
             this.myButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton6.Location = new System.Drawing.Point(218, 278);
@@ -560,7 +522,7 @@
             this.myButton5._transparentParent = this.main;
             this.myButton5.BackColor = System.Drawing.Color.Transparent;
             this.myButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton5.FlatAppearance.BorderSize = 2;
             this.myButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton5.Location = new System.Drawing.Point(72, 277);
@@ -575,12 +537,12 @@
             this.myButton4._transparentParent = this.main;
             this.myButton4.BackColor = System.Drawing.Color.Transparent;
             this.myButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton4.FlatAppearance.BorderSize = 2;
             this.myButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.myButton4.Location = new System.Drawing.Point(32, 391);
+            this.myButton4.Location = new System.Drawing.Point(32, 396);
             this.myButton4.Name = "myButton4";
-            this.myButton4.Size = new System.Drawing.Size(219, 32);
+            this.myButton4.Size = new System.Drawing.Size(219, 27);
             this.myButton4.TabIndex = 49;
             this.myButton4.UseVisualStyleBackColor = false;
             this.myButton4.Click += new System.EventHandler(this.myButton4_Click);
@@ -590,7 +552,7 @@
             this.myButton2._transparentParent = this.main;
             this.myButton2.BackColor = System.Drawing.Color.Transparent;
             this.myButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.myButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.myButton2.FlatAppearance.BorderSize = 2;
             this.myButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.myButton2.Location = new System.Drawing.Point(14, 455);
@@ -711,7 +673,7 @@
             this.myLabel4.AutoSize = true;
             this.myLabel4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel4.ForeColor = System.Drawing.Color.Red;
-            this.myLabel4.Location = new System.Drawing.Point(741, 447);
+            this.myLabel4.Location = new System.Drawing.Point(741, 400);
             this.myLabel4.Name = "myLabel4";
             this.myLabel4.Size = new System.Drawing.Size(34, 21);
             this.myLabel4.TabIndex = 69;
@@ -722,7 +684,7 @@
             this.myLabel5.AutoSize = true;
             this.myLabel5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel5.ForeColor = System.Drawing.Color.Red;
-            this.myLabel5.Location = new System.Drawing.Point(741, 471);
+            this.myLabel5.Location = new System.Drawing.Point(741, 424);
             this.myLabel5.Name = "myLabel5";
             this.myLabel5.Size = new System.Drawing.Size(33, 21);
             this.myLabel5.TabIndex = 70;
@@ -733,7 +695,7 @@
             this.myLabel6.AutoSize = true;
             this.myLabel6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel6.ForeColor = System.Drawing.Color.Red;
-            this.myLabel6.Location = new System.Drawing.Point(740, 516);
+            this.myLabel6.Location = new System.Drawing.Point(740, 469);
             this.myLabel6.Name = "myLabel6";
             this.myLabel6.Size = new System.Drawing.Size(34, 21);
             this.myLabel6.TabIndex = 71;
@@ -770,15 +732,57 @@
             this.myLabel8.AutoSize = true;
             this.myLabel8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.myLabel8.ForeColor = System.Drawing.Color.Red;
-            this.myLabel8.Location = new System.Drawing.Point(741, 539);
+            this.myLabel8.Location = new System.Drawing.Point(741, 493);
             this.myLabel8.Name = "myLabel8";
             this.myLabel8.Size = new System.Drawing.Size(34, 21);
             this.myLabel8.TabIndex = 73;
             this.myLabel8.Text = "-13";
             // 
+            // arrow6
+            // 
+            this.arrow6._CapSize = 10F;
+            this.arrow6._Direction = DesktopGuide.Controls.Arrow.Direction.LeftToRight;
+            this.arrow6._FilledCap = false;
+            this.arrow6._LineWidth = 1F;
+            this.arrow6._transparentParent = this;
+            this.arrow6.BackColor = System.Drawing.Color.Transparent;
+            this.arrow6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow6.Location = new System.Drawing.Point(22, 281);
+            this.arrow6.Name = "arrow6";
+            this.arrow6.Size = new System.Drawing.Size(21, 22);
+            this.arrow6.TabIndex = 44;
+            // 
+            // myLabel9
+            // 
+            this.myLabel9.AutoSize = true;
+            this.myLabel9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.myLabel9.ForeColor = System.Drawing.Color.Red;
+            this.myLabel9.Location = new System.Drawing.Point(320, 284);
+            this.myLabel9.Name = "myLabel9";
+            this.myLabel9.Size = new System.Drawing.Size(17, 18);
+            this.myLabel9.TabIndex = 74;
+            this.myLabel9.Text = "5";
+            // 
+            // arrow2
+            // 
+            this.arrow2._CapSize = 10F;
+            this.arrow2._Direction = DesktopGuide.Controls.Arrow.Direction.RightToLeft;
+            this.arrow2._FilledCap = false;
+            this.arrow2._LineWidth = 1F;
+            this.arrow2._transparentParent = this;
+            this.arrow2.BackColor = System.Drawing.Color.Transparent;
+            this.arrow2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.arrow2.Location = new System.Drawing.Point(272, 286);
+            this.arrow2.Name = "arrow2";
+            this.arrow2.Size = new System.Drawing.Size(46, 12);
+            this.arrow2.TabIndex = 44;
+            // 
             // fa11
             // 
             this.ClientSize = new System.Drawing.Size(800, 600);
+            this.Controls.Add(this.arrow2);
+            this.Controls.Add(this.myLabel9);
+            this.Controls.Add(this.arrow6);
             this.Controls.Add(this.myLabel8);
             this.Controls.Add(this.arrow13);
             this.Controls.Add(this.myLabel7);
@@ -797,11 +801,9 @@
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.arrow8);
             this.Controls.Add(this.arrow7);
-            this.Controls.Add(this.arrow6);
             this.Controls.Add(this.arrow3);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
@@ -810,7 +812,6 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.arrow5);
-            this.Controls.Add(this.arrow2);
             this.Controls.Add(this.arrow1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label4);
@@ -831,7 +832,6 @@
             this.Controls.SetChildIndex(this.label4, 0);
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.arrow1, 0);
-            this.Controls.SetChildIndex(this.arrow2, 0);
             this.Controls.SetChildIndex(this.arrow5, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label12, 0);
@@ -840,11 +840,9 @@
             this.Controls.SetChildIndex(this.label14, 0);
             this.Controls.SetChildIndex(this.label13, 0);
             this.Controls.SetChildIndex(this.arrow3, 0);
-            this.Controls.SetChildIndex(this.arrow6, 0);
             this.Controls.SetChildIndex(this.arrow7, 0);
             this.Controls.SetChildIndex(this.arrow8, 0);
             this.Controls.SetChildIndex(this.label7, 0);
-            this.Controls.SetChildIndex(this.label8, 0);
             this.Controls.SetChildIndex(this.label18, 0);
             this.Controls.SetChildIndex(this.label19, 0);
             this.Controls.SetChildIndex(this.label20, 0);
@@ -865,6 +863,9 @@
             this.Controls.SetChildIndex(this.myLabel7, 0);
             this.Controls.SetChildIndex(this.arrow13, 0);
             this.Controls.SetChildIndex(this.myLabel8, 0);
+            this.Controls.SetChildIndex(this.arrow6, 0);
+            this.Controls.SetChildIndex(this.myLabel9, 0);
+            this.Controls.SetChildIndex(this.arrow2, 0);
             ((System.ComponentModel.ISupportInitialize)(this.main)).EndInit();
             this.main.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -879,10 +880,8 @@
         private Controls.MyButton myButton1;
         private Controls.MyButton myButton2;
         private Controls.Arrow arrow5;
-        private Controls.Arrow arrow2;
         private Controls.Arrow arrow8;
         private Controls.Arrow arrow7;
-        private Controls.Arrow arrow6;
         private Controls.Arrow arrow4;
         private Controls.Arrow arrow3;
         private Controls.Arrow arrow9;
@@ -908,7 +907,6 @@
         private Controls.MyLabel label17;
         private Controls.MyLabel label19;
         private Controls.MyLabel label18;
-        private Controls.MyLabel label8;
         private Controls.MyLabel label7;
         private Controls.MyLabel label20;
         private Controls.MyLabel label23;
@@ -927,6 +925,9 @@
         private Controls.MyLabel myLabel8;
         private Controls.Arrow arrow13;
         private Controls.MyLabel myLabel7;
+        private Controls.Arrow arrow2;
+        private Controls.MyLabel myLabel9;
+        private Controls.Arrow arrow6;
     }
 }
 
