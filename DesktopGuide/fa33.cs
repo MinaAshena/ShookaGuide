@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace DesktopGuide
 {
-    public partial class fa03 : MyForm
+    public partial class fa33 : MyForm
     {
-        public fa03()
+        public fa33()
         {
             InitializeComponent();
         }
@@ -43,11 +43,6 @@ namespace DesktopGuide
         private void myButton5_Click(object sender, EventArgs e)
         {
             MoveToSlide(new fa04());
-        }
-
-        private void myButton6_Click(object sender, EventArgs e)
-        {
-            MoveToSlide(new fa33());
         }
     }
 }

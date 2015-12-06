@@ -139,6 +139,25 @@
     <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
     <DefineConstants>Security01,SecuritySW01</DefineConstants>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugParsianBank|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugParsianBank\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ParsianBank</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleasePArsianBank|AnyCPU'">
+    <OutputPath>bin\ReleaseParsianBank\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>ParsianBank</DefineConstants>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -172,6 +191,12 @@
     <None Include="en02.Designer.cs">
       <DependentUpon>en02.cs</DependentUpon>
     </None>
+    <Compile Include="fa33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa33.Designer.cs">
+      <DependentUpon>fa33.cs</DependentUpon>
+    </Compile>
     <Compile Include="fa14_2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +214,12 @@
     </Compile>
     <Compile Include="fa17_2.Designer.cs">
       <DependentUpon>fa17_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fa32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fa32.Designer.cs">
+      <DependentUpon>fa32.cs</DependentUpon>
     </Compile>
     <Compile Include="fa31.cs">
       <SubType>Form</SubType>
@@ -384,6 +415,9 @@
     <None Include="en02.resx">
       <DependentUpon>en02.cs</DependentUpon>
     </None>
+    <EmbeddedResource Include="fa33.resx">
+      <DependentUpon>fa33.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fa14_2.resx">
       <DependentUpon>fa14_2.cs</DependentUpon>
     </EmbeddedResource>
@@ -392,6 +426,9 @@
     </None>
     <EmbeddedResource Include="fa17_2.resx">
       <DependentUpon>fa17_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fa32.resx">
+      <DependentUpon>fa32.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fa31.resx">
       <DependentUpon>fa31.cs</DependentUpon>
@@ -658,6 +695,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GuideIcon.ico" />
+    <None Include="Resources\Farsi_Contact_Search.png" />
+    <None Include="Resources\Farsi_Security_Page.PNG" />
     <None Include="Resources\Farsi_ParticipantPage.png" />
     <None Include="Resources\Farsi_RollCall.jpg" />
     <None Include="Resources\Farsi_Voting.PNG" />

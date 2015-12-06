@@ -120,20 +120,7 @@
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="label2.Text" xml:space="preserve">
-    <value>آدرس پورتال ورودتان به نرم افزار
-
-پورت ارتباطی نرم‌افزار
-
-بازه‌ی پورت‌های UDP برای انتقال صدا و تصویر
-
-اگر می‌خواهید تصویرتان از پروکسی مسیریاب ویدئویی عبور کند، این گزینه را تیک بزنید.
-
-در صورتی که سازمان شما مجهز به وب پروکسی می باشد نام کاربری و رمز عبورتان از این پروکسی را در اینجا وارد کنید.
-
-ذخیره تنظیمات و اعمال آنها
-
-عدم ذخیره تغییرات و بازگشت به سربرگ تنظیمات
-</value>
-  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

@@ -84,5 +84,10 @@ namespace DesktopGuide
         {
             MoveToSlide(new fa27());
         }
+
+        private void myButton11_Click(object sender, EventArgs e)
+        {
+            MoveToSlide(new fa32());
+        }
     }
 }
